@@ -11,6 +11,9 @@ public class Person {
         this.age = age;
         this.profession = profession;
     }
+    public void changeprofession(String newprofession){
+        this.profession = newprofession;
+    }
 
     @Override
     public String toString() {
