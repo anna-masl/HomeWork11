@@ -17,7 +17,7 @@ public class SolutionHomeWork11 {
         Person alice = new Person("Alice",28, "Архітектор");
         System.out.println("2. " + alice);
         System.out.println("   (Після оновлення професії)");
-        alice.changeprofession("Дизайнер");
+        alice.changeProfession("Дизайнер");
         System.out.println("   "+ alice);
 
 

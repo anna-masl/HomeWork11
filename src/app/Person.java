@@ -11,7 +11,7 @@ public class Person {
         this.age = age;
         this.profession = profession;
     }
-    public void changeprofession(String newprofession){
+    public void changeProfession(String newprofession){
         this.profession = newprofession;
     }
 
